@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
 /*
@@ -16,24 +15,24 @@ public class Task2_1 {
     public static void main(String[] args) {
         Scanner iScaner = new Scanner(System.in);
         System.out.print("Enter string: ");
-        String str = iScaner.next();
-        int[] ind = new int[str.length()];
-        for (int i = 0; i < ind.length; i++) {
-            ind[i] = i;
+        String str = iScaner.nextLine();
+        int[] index = new int[str.length()];
+        for (int i = 0; i < index.length; i++) {
+            index[i] = i;
         }
         Random r = new Random();
-        for (int i = 0; i < ind.length; i++) {
-            int index  = r.nextInt(i + 1);
-            int a = ind[index];
-            ind[index] = ind[i];
-            ind[i] = a;
+        for (int i = 0; i < index.length; i++) {
+            int randomIndex  = r.nextInt(i + 1);
+            int a = index[randomIndex];
+            index[randomIndex] = index[i];
+            index[i] = a;
         }
 
-        for (int i: ind) {
+        for (int i: index) {
             System.out.print(i);
         }
         System.out.println();
-        System.out.println(shuffle(str, ind));
+        System.out.println(shuffle(str, index));
     }
 
     public static String shuffle(final String s, final int[] index){
