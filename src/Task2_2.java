@@ -43,21 +43,23 @@ public class Task2_2 {
         iScaner.nextLine();
         for (int i = 0; i < bookStringsCount; i++) {
             String bookString = iScaner.nextLine();
-            bookStrings[i] = bookString.toLowerCase();
+            bookStrings[i] = bookString;
         }
 
         System.out.println("Введите количество замен");
         int changeProductCount = iScaner.nextInt();
 
         System.out.println("Введите замены");
-        String[] Products = new String[changeProductCount];
-        String[] changeProducts = new String[changeProductCount];
+        String[] Products = new String[2 * changeProductCount];
+        String[] changeProducts = new String[2 * changeProductCount];
         iScaner.nextLine();
         for (int i = 0; i < changeProductCount; i++) {
             String changeProduct = iScaner.nextLine();
             String[] parts = changeProduct.split(" - ");
             Products[i] = parts[0];
             changeProducts[i] = parts[1];
+            Products[i + changeProductCount] = Products[i].replaceFirst(String.valueOf(Products[i].charAt(0)), String.valueOf(Character.toUpperCase(Products[i].charAt(0))));
+            changeProducts[i + changeProductCount] = changeProducts[i].replaceFirst(String.valueOf(changeProducts[i].charAt(0)), String.valueOf(Character.toUpperCase(changeProducts[i].charAt(0))));
         }
 
         for (int i = 0; i < bookStringsCount; i++) {
