@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="868aadbe-802e-4a59-856a-f00ce064ca0b" name="Changes" comment="change Task2_2">
-      <change afterPath="$PROJECT_DIR$/src/Task5_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task5_2.java" afterDir="false" />
+    <list default="true" id="868aadbe-802e-4a59-856a-f00ce064ca0b" name="Changes" comment="resolve Homework 5">
+      <change afterPath="$PROJECT_DIR$/src/Homework6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_directory_selection": "/home/user/IdeaProjects/Java_seminar/src",
-    "last_opened_file_path": "/home/user/IdeaProjects/Java_seminar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/Java_seminar/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/Java_seminar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,13 +91,22 @@
       <option name="project" value="LOCAL" />
       <updated>1695816108669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="resolve Homework 5">
+      <option name="closed" value="true" />
+      <created>1696227170590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696227170590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change Task2_0" />
     <MESSAGE value="change Task2_1" />
     <MESSAGE value="change Task2_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Task2_2" />
+    <MESSAGE value="resolve Homework 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve Homework 5" />
   </component>
 </project>
